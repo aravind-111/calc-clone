@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(196, 251, 253);
+  color: rgb(42, 42, 42);
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  background: white;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  padding: 16px 10px;
+  width: 100%;
+  border: 0;
+  font-size: 2em;
+  background-color: violet;
+  color: #eee;
+  text-align: right;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  font-size: 2em;
+  padding: 0.7em;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+td:hover {
+  background-color: tomato;
+}
+
+.operation {
+  background-color: yellowgreen;
+}
+
+.operation:hover {
+  background-color: aqua;
+}
+
+.equal {
+  background-color: brown;
+}
+
+.equal:hover {
+  background-color: rgb(59, 49, 196);
+}
